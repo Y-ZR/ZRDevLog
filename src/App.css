@@ -1,38 +1,75 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  max-width: 900px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-section, .about-section, .experience-section, .education-section, .skills-section, .projects-section {
+  margin-bottom: 3rem;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #3e3e3e; /* Placeholder color for the image */
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.title {
+  font-size: 1.2em;
+  color: #bb86fc;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.skills-list, .projects-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li, .projects-list li {
+  background-color: #333;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #bb86fc;
+  border-bottom: 2px solid #bb86fc;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #adff2f; /* A light green color for project and job titles */
 }
