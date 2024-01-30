@@ -23,8 +23,15 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.profile-section, .about-section, .experience-section, .education-section, .skills-section, .projects-section {
+.experience-section, .education-section, .skills-section, .projects-section {
   margin-bottom: 3rem;
+}
+
+.profile-section h1,
+.profile-section .title,
+.profile-section p {
+  text-align: center;
+  margin: 0.5rem;
 }
 
 .profile-image {
@@ -44,11 +51,27 @@ body {
 .social-links {
   display: flex;
   justify-content: center;
-  list-style: none;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: -10px
 }
 
-.social-links li {
+.social-links a {
+  color: #ffffff;
   margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover, .social-links a:focus {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+.about-section {
+  margin-bottom: 3rem;
+  margin-top: -0.5rem;
+
 }
 
 .skills-list, .projects-list {

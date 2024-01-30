@@ -1,6 +1,7 @@
 import React from 'react';
+import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './App.css';
-import profile_picture from './profile_picture.jpeg';
+import profile_picture from './assets/profile_picture.jpeg';
 
 function App() {
   return (
@@ -8,26 +9,34 @@ function App() {
       <div className="main-container">
         <section className="profile-section">
           <img src={ profile_picture } alt="Profile" className="profile-image" />
-          <h1>John Doe</h1>
+          <h1>Yong Zhong Rong</h1>
           <p className="title">Full Stack Developer</p>
-          <p>New York, USA</p>
+          <p>San Francisco, USA</p>
           <div className="social-links">
-            {/* Social icons here */}
+          <a href="mailto:zr@beamcomfort.com" aria-label="Email"><FaEnvelope /></a>
+            <a href="tel:+15105880426" aria-label="Phone"><FaPhone /></a>
+            <a href="https://github.com/Y-ZR" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/zhong-rong-yong-10b0a122b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
           </div>
         </section>
 
         <section className="about-section">
           <h2>About</h2>
           <p>
-            Enthusiastic full stack developer with a passion for building scalable web applications and working on innovative projects. Skilled in React, Node.js, and Python.
+            Enthusiastic developer with a passion for building scalable products and working on innovative projects. Skilled in React, Node.js, and Python.
           </p>
         </section>
 
         <section className="experience-section">
           <h2>Work Experience</h2>
           <div className="job">
-            <h3>Senior Developer - AmazingTech</h3>
-            <p>2021 - Present</p>
+            <h3>Software Engineer - Beam Tech Inc</h3>
+            <p>Jan 2024 - Present</p>
+            <p>Leading the development team, focusing on backend solutions and improving system performance.</p>
+          </div>
+          <div className="job">
+            <h3>Software Engineer Intern - MVP Studios</h3>
+            <p>Aug 2023 - Dec 2023</p>
             <p>Leading the development team, focusing on backend solutions and improving system performance.</p>
           </div>
           {/* More job experiences */}
