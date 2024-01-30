@@ -1,8 +1,7 @@
 body {
   background-color: #121212;
   color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
+  font-family: 'Source Code Pro', monospace;  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -38,7 +37,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #3e3e3e; /* Placeholder color for the image */
+  background-color: #3e3e3e;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -60,12 +59,23 @@ body {
   color: #ffffff;
   margin: 0 10px;
   font-size: 24px;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, border-color 0.3s ease;;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  will-change: transform;
 }
 
 .social-links a:hover, .social-links a:focus {
   color: #bb86fc;
   text-decoration: none;
+  border-color: #bb86fc; 
+  transform: scale(1.1);
 }
 
 .about-section {
@@ -94,5 +104,5 @@ h2 {
 }
 
 h3 {
-  color: #adff2f; /* A light green color for project and job titles */
+  color: #adff2f;
 }
