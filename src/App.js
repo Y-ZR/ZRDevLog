@@ -2,6 +2,8 @@ import React from 'react';
 import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './App.css';
 import profile_picture from './assets/profile_picture.jpeg';
+import MVPStudio_logo from './assets/MVP_Studio_logo.png';
+import BeamTech_logo from './assets/Beam_Tech_logo.jpeg';
 
 function App() {
   return (
@@ -30,22 +32,34 @@ function App() {
         <section className="experience-section">
           <h2>Work Experience</h2>
           <div className="job">
-            <h3>Software Engineer - Beam Tech Inc</h3>
-            <p>Jan 2024 - Present</p>
-            <p>Leading the development team, focusing on backend solutions and improving system performance.</p>
+            <img src={BeamTech_logo} alt="Beam Tech Inc Logo" className="company-logo" />
+            <div>
+              <h3>Software Engineer - Beam Tech Inc</h3>
+              <p>Jan 2024 - Present</p>
+              <ul>
+                <li>Leading the development team, focusing on backend solutions and improving system performance.</li>
+                <li>Leading the development team, focusing on backend solutions and improving system performance.</li>
+              </ul>
+            </div>
           </div>
           <div className="job">
-            <h3>Software Engineer Intern - MVP Studios</h3>
-            <p>Aug 2023 - Dec 2023</p>
-            <p>Leading the development team, focusing on backend solutions and improving system performance.</p>
+            <img src={MVPStudio_logo} alt="MVP Studio Logo" className="company-logo" />
+            <div>
+              <h3>Software Engineer Intern - MVP Studios</h3>
+              <p>Aug 2023 - Dec 2023</p>
+              <ul>
+                <li>Leading the development team, focusing on backend solutions and improving system performance.</li>
+                <li>Leading the development team, focusing on backend solutions and improving system performance.</li>
+              </ul>            
+            </div>
           </div>
           {/* More job experiences */}
         </section>
 
         <section className="education-section">
           <h2>Education</h2>
-          <p>B.Sc. in Computer Science - Tech University</p>
-          <p>2015 - 2019</p>
+          <p>B.Sc. in Business Analytics - National University of Singapore</p>
+          <p>Aug 2022 - May 2026</p>
           {/* More education entries */}
         </section>
 
@@ -62,7 +76,11 @@ function App() {
         <section className="projects-section">
           <h2>Projects</h2>
           <div className="project">
-            <h3>Project Name</h3>
+            <h3>FocusFlow</h3>
+            <p>Description of the project...</p>
+          </div>
+          <div className="project">
+            <h3>ZRDevLog</h3>
             <p>Description of the project...</p>
           </div>
           {/* More projects */}
