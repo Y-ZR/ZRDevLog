@@ -75,6 +75,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.about-section, .profile-section, .education-section, .experience-section, .skills-section, .projects-section {
+  margin-bottom: 2rem;
+}
+
 .profile-section h1,
 .profile-section .title,
 .profile-section p {
@@ -137,17 +141,11 @@
   transform: scale(1.1);
 }
 
-.about-section {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-
-}
-
 .company-logo {
   width: 50px; /* or the size you prefer */
   height: auto;
   margin-right: 20px; /* Adjust spacing as necessary */
-  transform: translateY(-95%); /* Moves the logo up by 10% of its height */
+  transform: translateY(-120%); /* Moves the logo up by 10% of its height */
   transition: transform 0.3s ease; /* Optional: Smooth transition for any transform changes */
 }
 
@@ -200,6 +198,7 @@ h2 {
   color: #dedbdb;
   border-bottom: 2px solid #ffffff;
   padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 h3 {
