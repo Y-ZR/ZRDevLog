@@ -1,0 +1,56 @@
+{
+    "name": "Yong Zhong Rong",
+    "role": "Fullstack Software Engineer",
+    "location": "San Francisco, CA",
+    "email": "yzr@u.nus.edu.sg",
+    "phone": "5105880426",
+    "socialMedia": {
+        "github": "https://github.com/Y-ZR",
+        "linkedin": "https://www.linkedin.com/in/zhong-rong-yong-10b0a122b/"
+    },
+    "about": "Enthusiastic developer with a passion for building scalable products and working on innovative projects. Skilled in React, Node.js, and Python.",
+    "experience": [
+        {
+            "title": "Software Engineer Intern",
+            "company": "Beam Tech Inc.",
+            "location": "Silicon Valley, US",
+            "dates": "Jan 2024 - Present",
+            "description": [
+                "Leading the development team, focusing on backend solutions and improving system performance."
+            ]
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "MVP Studios.",
+            "location": "Singapore, Singapore",
+            "dates": "Aug 2023 - Dec 2023",
+            "description": [
+                "Build Minimum Viable Products for startups."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Business Analytics (School of Computing)",
+            "school": "National University of Singapore",
+            "location": "Singapore, Singapore",
+            "dates": "Aug 2022 - May 2026",
+            "description": [
+                "Graduated with First Class Honours."
+            ]
+        }
+    ],
+    "skills": [
+        { "id": 1, "name": "JavaScript" },
+        { "id": 2, "name": "React" },
+        { "id": 3, "name": "Next.js" },
+        { "id": 4, "name": "Python" }
+      ],
+    "projects": [
+        {
+            "title": "FocusFlow",
+            "description": "Built a full-stack web application using React, Node.js, and Firebase. The app allows users to ...",
+            "github": "https://github.com/Y-ZR/FocusFlow"
+        }
+    ]
+}
